@@ -513,7 +513,7 @@ class SaeModel {
             return $this->where($this->parseKey(self::parse_name(substr($method, 10))) . '=' . $this->parseValue($args[0]))->getField($args[1]);
         } else {
             //抛出错误
-            info_page('方法不存在');
+            exit('SaeModel not has Method:'.$method);
         }
     }
 

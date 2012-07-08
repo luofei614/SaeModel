@@ -5,6 +5,7 @@
  * 实现了ORM和ActiveRecords模式
  * @author luofei614<www.3g4k.com>
  */
+
 function M($name = '') {
     static $_model = array();
     if (isset($_model[$name])){

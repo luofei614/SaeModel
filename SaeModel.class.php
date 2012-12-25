@@ -6,6 +6,7 @@
  * @author luofei614<www.3g4k.com>
  */
 //test
+//ggg
 function M($name = '') {
     static $_model = array();
     if (isset($_model[$name])){
